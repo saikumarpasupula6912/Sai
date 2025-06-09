@@ -1,0 +1,170 @@
+HTML Lists
+•	A list is a set of related items.
+•	There are two types of lists:
+o	Unordered Lists
+o	Ordered Lists
+Unordered Lists
+•	Unordered Lists are used to present a collection of related items when sequence of items is not important.
+Ex:
+List of Fruits:
+•	Grapes
+•	Apples
+•	Cherry
+•	Banana
+Syntax of Unordered List:
+<ul>
+  <li> item1 </li>
+  <li> item2 </li>
+</ul>
+ul stands for Unordered List
+li stands for List Item
+Program for Unordered List:
+<!DOCTYPE html>
+<html>
+<head>
+ <title> Unordered List </title>
+</head>
+<body>
+<ul>
+   <li> Apples </li>
+   <li> Banana </li>
+   <li> Cherry </li>
+   <li> Grapes </li>
+</ul>
+</body>
+</html>
+
+Ordered Lists:
+•	Ordered lists are used to display a list of items in a specific sequence, which are marked with numbers or letters.
+•	By default, ordered list will be displayed with numbers.
+•	Ordered lists can be displayed with:
+o	Numbers  (1,2,3 …)
+o	Uppercase letters (A,B,C, ….)
+o	Lowercase letters( a, b, c, ….)
+o	Uppercase Roman Numbers (I, II, III, IV, V, …)
+o	Lowercase Roman Numbers (I, ii, iii, iv, v, …)
+Syntax of Ordered List:
+<ol>
+    <li> item1 </li>
+   <li> item2 </li>
+</ol>
+ol stands for Ordered List
+li stands for List Item
+Program for Ordered List:
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Ordered List </title>
+</head>
+<body>
+<ol>
+    <li> C#.net </li>
+    <li> ASP.net </li>
+    <li> ADO.net </li>
+    <li> SQL Server </li>
+    <li> MVC </li>
+</ol>
+</body>
+</html>
+For Uppercase ordered list:   <ol type="A">
+For Lowercase ordered list:  <ol type="a">
+For Uppercase Roman Numbered Ordered List: <ol type="I">
+For Lowercase Roman Numbered Ordered List: <ol type="i">
+HTML Forms
+•	HTML form is used to collect user input.
+•	The examples of user input:
+o	First Name
+o	Last Name
+o	Gender
+o	Date Of Birth
+o	Age
+o	Email ID
+o	Phone Number
+o	Address etc….
+•	To collect the user input, the following input types will be used:
+o	Label
+o	Textbox
+o	Checkbox
+o	Radio Button
+o	Buttons
+o	List box etc….
+Label: Label is used to tell the user to enter what input.
+ 
+Syntax of Label:
+<label> Label Text </label>
+Ex:
+<label> First Name </label>
+
+Textbox: Textbox is used to take input from the user.
+Syntax of Textbox:
+<input type="text">
+Button: Button is used to perform the action or operation such as submit operation, insert operation, update operation, delete operation etc….
+Syntax of button:
+<input type="submit">
+Textarea: Textarea is used to input multiple lines of text.
+Syntax of textarea:
+<textarea rows=”number of rows” cols=”Number of columns”></textarea>
+
+
+Ex:
+<label> Address </label>
+<textarea rows=”5” cols=”20”></textarea>
+Program:
+<!DOCTYPE html>
+<html>
+<head>
+   <title> Form  Example </title>
+</head>
+<body>
+<form>
+   <label> First Name </label>
+   <input type="text"><br><br>   
+   <label> Last Name </label>
+   <input type="text"><br><br>
+    <label> Address </label><br>
+    <textarea rows="5" cols="20"></textarea> <br><br>
+   <input type="submit">
+</form>
+</body>
+</html>
+Homework
+Interview Questions:
+1.	What is Unordered list?
+2.	What is Ordered List and write the difference between Ordered list and unordered list?
+3.	What is a Form?
+4.	Explain the following input controls:
+a.	Label
+b.	Textbox
+c.	Textarea
+d.	Button
+Tasks
+Task1: Write a HTML program to create both ordered and unordered lists
+Task2: Write a HTML program to take input: Emp ID, Emp Name and Emp Salary 
+Task3: Write a HTML program to take input: Product ID, product name, product price
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
